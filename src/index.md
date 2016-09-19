@@ -2,7 +2,7 @@ title: PWAs and the biggest browser you've probably never thought of
 output: public/index.html
 style: styles.css
 script: script.js
-controls: true
+controls: false
 
 --
 
@@ -17,7 +17,10 @@ controls: true
 
 --
 
-<h2>Samsung Internet</h2>
+<p class="media-container fill-w">![Browser logos](images/browser-logos.png)</p>
+
+--
+
 <p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" width="45%"></p>
 <p class="caption"><a href="http://bit.ly/what-is-samsung-internet">bit.ly/what-is-samsung-internet</a></p>
 
