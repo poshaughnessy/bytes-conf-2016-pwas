@@ -56,16 +56,27 @@ controls: false
 --
 
 <p class="media-container fill-h">![Facebook web app](images/facebook.png)</p>
-<p class="caption"><a href="http://wtfmobileweb.com/">By Jules Jamison via http://wtfmobileweb.com</a></p>
+<p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via http://wtfmobileweb.com</a></p>
 
 --
 
 <p class="media-container fill-h">![Rio Run](images/riorun-guardian.jpg)</p>
-<p class="caption"><a href="http://wtfmobileweb.com/">Rio Run by Guardian US Interactive Team - riorun.theguardian.com</a></p>
+<p class="caption"><a href="http://riorun.theguardian.com">Rio Run by Guardian US Interactive Team - riorun.theguardian.com</a></p>
+
+--
+
+<p class="media-container fill-h">![Flipkart](images/flipkart.png)</p>
+<p class="caption"><a href="https://developers.google.com/web/showcase/2016/flipkart">Flipkart PWA: 3x dwell time, 70% more conversions</a></p>
 
 --
 
 
+
+--
+
+## Google Web Showcase
+
+### [developers.google.com/web/showcase](https://developers.google.com/web/showcase/)
 
 --
 
