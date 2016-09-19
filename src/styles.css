@@ -312,7 +312,7 @@ h3 {
 h1 {
   margin: 0 0 0.5em 0;
   font-size: 250%;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 h2 {
@@ -424,11 +424,11 @@ p {
 
 a {
   text-decoration: none;
-  color: #339ec1;
+  color: #15738e;
 }
 
 a:hover {
-  color: #66d9ef;
+  color: #339ec1;
   border-bottom: 1px solid #66d9ef;
 }
 

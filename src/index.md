@@ -21,12 +21,59 @@ controls: false
 
 --
 
+## “Just websites that took all the right vitamins”
+
+--
+
+* Safe
+* Offline
+* App-like
+* Webby (linkable)
+* (re-)Engaging
+* Sensitive (to form factors)
+* Up-to-date
+* Manifest-defining (installable)
+
+## &nbsp;
+
+--
+
+* Safe
+* Offline
+* App-like
+* Webby (linkable)
+* (re-)Engaging
+* Sensitive (to form factors)
+* Up-to-date
+* Manifest-defining (installable)
+
+## “SO AWESUM”
+
+--
+
 # Minimising friction. Maximising reach.
 
 --
 
 <p class="media-container fill-h">![Facebook web app](images/facebook.png)</p>
-<p class="caption"><a href="http://wtfmobileweb.com/">By Jules Jamison via http://wtfmobileweb.com/</a></p>
+<p class="caption"><a href="http://wtfmobileweb.com/">By Jules Jamison via http://wtfmobileweb.com</a></p>
+
+--
+
+<p class="media-container fill-h">![Rio Run](images/riorun-guardian.jpg)</p>
+<p class="caption"><a href="http://wtfmobileweb.com/">Rio Run by Guardian US Interactive Team - riorun.theguardian.com</a></p>
+
+--
+
+
+
+--
+
+# Service workers
+
+--
+
+
 
 --
 
