@@ -17,6 +17,19 @@ controls: false
 
 --
 
+# PWA?
+
+--
+
+# Minimising friction. Maximising reach.
+
+--
+
+<p class="media-container fill-h">![Facebook web app](images/facebook.png)</p>
+<p class="caption"><a href="http://wtfmobileweb.com/">By Jules Jamison via http://wtfmobileweb.com/</a></p>
+
+--
+
 <p class="media-container fill-w">![Browser logos](images/browser-logos.png)</p>
 
 --
