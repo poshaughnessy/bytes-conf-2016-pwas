@@ -112,10 +112,6 @@ TODO lessons learned from Snapwat
 
 --
 
-<p class="media-container fill-w">![Browser logos](images/browser-logos.png)</p>
-
---
-
 <p class="media-container fill-w">![Is Service Worker Ready?](images/isserviceworkerready.png)</p>
 <p class="caption"><a href="https://jakearchibald.github.io/isserviceworkerready/">jakearchibald.github.io/isserviceworkerready/</a></p>
 
@@ -126,7 +122,46 @@ TODO lessons learned from Snapwat
 
 --
 
+<p class="media-container fill-w">![Samsung Internet browser share](images/statcounter-mobile-europe-sep2016.png)</p>
 
+<!-- http://gs.statcounter.com/#mobile_browser-eu-monthly-201609-201609-bar -->
+
+--
+
+<p class="media-container fill-h">![Service workers spec](images/service-workers-spec.png)</p>
+
+<!-- Message is: we're here, we want to help, we're doing some cool stuff with PWAs, WebVR... -->
+<!-- We're planning some cool stuff. And please get in touch if you need us. -->
+
+--
+
+TODO: slide on debugging
+
+--
+
+TODO: slide on how to see Samsung Internet on caniuse
+
+-- 
+
+TODO: slide on WebVR
+
+--
+
+TODO: slide on Web Payments
+
+--
+
+## Summary
+
+* PWAs are awesome
+<li class="invisible">Hi! We're Samsung Internet and we're here to help</li> 
+
+--
+
+## Summary
+
+* PWAs are awesome
+* Hi! We're Samsung Internet and we're here to help 
 
 --
 

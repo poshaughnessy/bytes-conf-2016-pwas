@@ -414,6 +414,7 @@ p {
   max-height: -webkit-calc(95vh - 2em);
   max-height: calc(95vh - 2em);
   margin: 0;
+  overflow: hidden;
 }
 
 .media-container.fill-h {
@@ -468,6 +469,10 @@ table th {
 
 .hidden {
   display: none;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 .caption {
