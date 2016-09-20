@@ -56,11 +56,15 @@ controls: false
 
 --
 
-TODO: Use Reflector, record video of Medium problem
+![LinkedIn app](/images/linkedin-tweets.png)
+
+<!-- TODO if time: Use Reflector, record video of LinkedIn problem -->
 
 --
 
-TODO: Use Reflector, record video of LinkedIn problem
+![Medium app](/images/medium-peter.png)
+
+<!-- TODO if time: Use Reflector, record video of Medium problem -->
 
 --
 
@@ -93,15 +97,18 @@ TODO: Use Reflector, record video of LinkedIn problem
 
 --
 
-
-
---
-
-# Snapwat
+TODO image of InspireHub
 
 --
 
+<p class="media-container fill-h">![Snapwat](images/snapwat.png)</p>
+<p class="caption"><a href="https://medium.com/samsung-internet-dev/things-i-learned-making-a-progressive-web-app-for-super-selfies-49e76d154e4f">Snapwat</a></p>
 
+<!-- I wanted to develop a PWA myself... -->
+
+--
+
+TODO lessons learned from Snapwat
 
 --
 
