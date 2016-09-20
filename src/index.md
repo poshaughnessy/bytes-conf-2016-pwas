@@ -56,19 +56,19 @@ controls: false
 
 --
 
-![LinkedIn app](/images/linkedin-tweets.png)
+<p class="media-container w-80pc fill-w">![LinkedIn app](/images/linkedin-tweets.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem -->
 
 --
 
-![Medium app](/images/medium-peter.png)
+<p class="media-container w-80pc fill-w">![Medium app](/images/medium-peter.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 
 --
 
-![EasyJet app](/images/easyjet-patrick.png)
+<p class="media-container w-80pc fill-w">![EasyJet app](/images/easyjet-patrick.png)</p>
 
 <!-- It's not just the Web... -->
 
@@ -147,7 +147,11 @@ TODO: slide on WebVR
 
 --
 
-TODO: slide on Web Payments
+<p class="media-container fill-h">![Payment Request UI](images/payment-request-ui-chrome.png)</p>
+<p class="caption"><a href="https://developers.google.com/web/fundamentals/primers/payment-request/">developers.google.com/web/fundamentals/primers/payment-request/</a></p>
+
+<!-- Samsung Internet are also working on this - W3C Web Pay with credit card (first) and Samsung Pay (later) -->
+<!-- and we're involved in the standard.. joined the W3C WG and contribute..-->
 
 --
 

@@ -231,26 +231,6 @@ img {
   max-height: 100%;
 }
 
-.fill-w > * {
-  width: 100%;
-}
-
-.fill-h > * {
-  height: 100%;
-}
-
-.w-100 {
-  width: 100px;
-}
-
-.w-200 {
-  width: 200px;
-}
-
-.w-300 {
-  width: 300px;
-}
-
 .controls {
   position: absolute;
   bottom: 10px;
@@ -421,6 +401,32 @@ p {
   height: -webkit-calc(85vh - 2em);
   height: calc(85vh - 2em);
   margin-top: 4%;
+}
+
+.fill-w > * {
+  width: 100%;
+}
+
+.fill-h > * {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.w-80pc {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -621,5 +627,11 @@ pre .xml .cdata {
   img {
     /* Override theme */
     width: auto;
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    font-size: 1.4em;
   }
 }

@@ -588,26 +588,6 @@ img {
   max-height: 100%;
 }
 
-.fill-w > * {
-  width: 100%;
-}
-
-.fill-h > * {
-  height: 100%;
-}
-
-.w-100 {
-  width: 100px;
-}
-
-.w-200 {
-  width: 200px;
-}
-
-.w-300 {
-  width: 300px;
-}
-
 .controls {
   position: absolute;
   bottom: 10px;
@@ -778,6 +758,32 @@ p {
   height: -webkit-calc(85vh - 2em);
   height: calc(85vh - 2em);
   margin-top: 4%;
+}
+
+.fill-w > * {
+  width: 100%;
+}
+
+.fill-h > * {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.w-80pc {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -981,6 +987,11 @@ pre .xml .cdata {
   }
 }
 
+@media (min-width: 1600px) {
+  body {
+    font-size: 1.4em;
+  }
+}
   </style>
 </head>
 <body>
@@ -1037,15 +1048,18 @@ pre .xml .cdata {
 <p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via <a href="http://wtfmobileweb.com">http://wtfmobileweb.com</a></a></p></section>
   </div>
   <div class="slide hidden" id="slide-7">
-    <section class="slide-content"><p><img src="/images/linkedin-tweets.png" alt="LinkedIn app"></p>
+    <section class="slide-content"><p class="media-container w-80pc fill-w"><img src="/images/linkedin-tweets.png" alt="LinkedIn app"></p>
+
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem --></section>
   </div>
   <div class="slide hidden" id="slide-8">
-    <section class="slide-content"><p><img src="/images/medium-peter.png" alt="Medium app"></p>
+    <section class="slide-content"><p class="media-container w-80pc fill-w"><img src="/images/medium-peter.png" alt="Medium app"></p>
+
 <!-- TODO if time: Use Reflector, record video of Medium problem --></section>
   </div>
   <div class="slide hidden" id="slide-9">
-    <section class="slide-content"><p><img src="/images/easyjet-patrick.png" alt="EasyJet app"></p>
+    <section class="slide-content"><p class="media-container w-80pc fill-w"><img src="/images/easyjet-patrick.png" alt="EasyJet app"></p>
+
 <!-- It's not just the Web... --></section>
   </div>
   <div class="slide hidden" id="slide-10">
@@ -1112,8 +1126,11 @@ pre .xml .cdata {
 </section>
   </div>
   <div class="slide hidden" id="slide-24">
-    <section class="slide-content"><p>TODO: slide on Web Payments</p>
-</section>
+    <section class="slide-content"><p class="media-container fill-h"><img src="images/payment-request-ui-chrome.png" alt="Payment Request UI"></p>
+<p class="caption"><a href="https://developers.google.com/web/fundamentals/primers/payment-request/">developers.google.com/web/fundamentals/primers/payment-request/</a></p>
+
+<!-- Samsung Internet are also working on this - W3C Web Pay with credit card (first) and Samsung Pay (later) -->
+<!-- and we're involved in the standard.. joined the W3C WG and contribute..--></section>
   </div>
   <div class="slide hidden" id="slide-25">
     <section class="slide-content"><h2 id="summary">Summary</h2>
