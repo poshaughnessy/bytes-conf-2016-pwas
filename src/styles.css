@@ -616,3 +616,10 @@ pre .xml .cdata {
     font-size: 1em;
   }
 }
+
+@media (max-width: 850px) {
+  img {
+    /* Override theme */
+    width: auto;
+  }
+}
