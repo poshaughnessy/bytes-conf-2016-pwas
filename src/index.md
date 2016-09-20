@@ -17,7 +17,7 @@ controls: false
 
 --
 
-# PWA?
+# PWAs?
 
 --
 
@@ -25,29 +25,38 @@ controls: false
 
 --
 
-* Safe
+* Secure
 * Offline
 * App-like
-* Webby (linkable)
-* (re-)Engaging
-* Sensitive (to form factors)
+* Web-like
+* Engaging
+* Sized to your device
 * Up-to-date
-* Manifest-defining (installable)
+* Manifest-ready
 
 ## &nbsp;
 
 --
 
-* Safe
-* Offline
-* App-like
-* Webby (linkable)
-* (re-)Engaging
-* Sensitive (to form factors)
-* Up-to-date
-* Manifest-defining (installable)
+* **S**ecure
+* **O**ffline
+* **A**pp-like
+* **W**eb-like
+* **E**ngaging
+* **S**ized to your device
+* **U**p-to-date
+* **M**anifest-ready
 
 ## “SO AWESUM”
+
+--
+
+<p class="media-container fill-h">![Facebook web app](images/facebook.png)</p>
+<p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via http://wtfmobileweb.com</a></p>
+
+--
+
+
 
 --
 
@@ -55,8 +64,7 @@ controls: false
 
 --
 
-<p class="media-container fill-h">![Facebook web app](images/facebook.png)</p>
-<p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via http://wtfmobileweb.com</a></p>
+# The best of web and native
 
 --
 
@@ -74,13 +82,7 @@ controls: false
 
 --
 
-## Google Web Showcase
-
-### [developers.google.com/web/showcase](https://developers.google.com/web/showcase/)
-
---
-
-# Service workers
+# Snapwat
 
 --
 
@@ -89,6 +91,11 @@ controls: false
 --
 
 <p class="media-container fill-w">![Browser logos](images/browser-logos.png)</p>
+
+--
+
+<p class="media-container fill-w">![Is Service Worker Ready?](images/isserviceworkerready.png)</p>
+<p class="caption"><a href="https://jakearchibald.github.io/isserviceworkerready/">jakearchibald.github.io/isserviceworkerready/</a></p>
 
 --
 
@@ -104,13 +111,7 @@ controls: false
 <h1>Thanks!</h1>
 
 <div class="group-closer">
-  <p>Peter O'Shaughnessy</p>
   <p>[@poshaughnessy](https://twitter.com/poshaughnessy)</p>
-  <p>[peteroshaughnessy.com](http://peteroshaughnessy.com)</p>
-</div>
-
-<div class="group-closer">
-  <p>Samsung Internet Developer Relations</p>
   <p>[@sbrowserdevrel](https://twitter.com/sbrowserdevrel)</p>
   <p>[medium.com/samsung-internet-dev](https://medium.com/samsung-internet-dev)</p>
 </div>
