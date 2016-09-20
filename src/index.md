@@ -8,7 +8,7 @@ controls: false
 
 # Progressive web apps
 
-### and the biggest browser you've probably never thought of 
+### And the biggest browser you’ve probably never thought of 
 
 <div class="group-closer">
   <p>Peter O'Shaughnessy</p>
@@ -56,15 +56,30 @@ controls: false
 
 --
 
+TODO: Use Reflector, record video of Medium problem
 
+--
+
+TODO: Use Reflector, record video of LinkedIn problem
+
+--
+
+![EasyJet app](/images/easyjet-patrick.png)
+
+<!-- It's not just the Web... -->
+
+--
+
+<blockquote>“According to a study from Ericsson, delays to loading web pages &amp; videos increase our heart rate and produce stress levels equivalent to watching a horror film.”</blockquote>
+<p class="caption"><a href="http://www.telegraph.co.uk/technology/2016/03/17/stressed-out-it-could-be-your-slow-internet/">The Telegraph</a></p>
+
+<!-- And according to other studies, stress can cause early death. So basically without service workers, we're killing people! -->
 
 --
 
 # Minimising friction. Maximising reach.
 
---
-
-# The best of web and native
+<!-- The best of web and native -->
 
 --
 
