@@ -87,20 +87,20 @@ controls: false
 
 --
 
-<blockquote>“According to a study from Ericsson, delays to loading web pages &amp; videos increase our heart rate and produce stress levels equivalent to watching a horror film.”</blockquote>
+<blockquote>“Delays to loading web pages &amp; videos increase our heart rate and produce stress levels equivalent to watching a horror film.”</blockquote>
 <p class="caption"><a href="http://www.telegraph.co.uk/technology/2016/03/17/stressed-out-it-could-be-your-slow-internet/">The Telegraph</a></p>
 
 <!-- And according to other studies, stress can cause early death. So basically without service workers, we're killing people! -->
 
 --
 
-<p class="media-container fill-h">![Rio Run](images/riorun-guardian.jpg)</p>
+<p class="media-container fill-w">![Rio Run](images/riorun-guardian.jpg)</p>
 <p class="caption"><a href="http://riorun.theguardian.com">Rio Run by Guardian US Interactive Team - riorun.theguardian.com</a></p>
 
 --
 
-<p class="media-container fill-h">![Flipkart](images/flipkart.png)</p>
-<p class="caption"><a href="https://developers.google.com/web/showcase/2016/flipkart">Flipkart PWA: 3x dwell time, 70% more conversions</a></p>
+<p class="media-container fill-h">![AliExpress](images/aliexpress.gif)</p>
+<p class="caption"><a href="https://developers.google.com/web/showcase/2016/aliexpress">AliExpress PWA increased conversions by over 100%</a></p>
 
 <!-- TODO image of InspireHub -->
 
@@ -164,17 +164,11 @@ TODO: slide on WebVR
 
 --
 
-## Summary
-
-* PWAs are awesome
-<li class="invisible">Hi! We're Samsung Internet and we're here to help</li> 
+# PWAs are awesome
 
 --
 
-## Summary
-
-* PWAs are awesome
-* Hi! We're Samsung Internet and we're here to help 
+# Hi! We're here to help 
 
 --
 
