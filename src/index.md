@@ -8,7 +8,7 @@ controls: false
 
 # Progressive web apps
 
-### And the biggest browser you’ve probably never thought of 
+## And the biggest browser you’ve probably never thought of 
 
 <div class="group-closer">
   <p>Peter O'Shaughnessy</p>
@@ -231,11 +231,11 @@ self.addEventListener('install', event => {
 
 --
 
-# PWAs are awesome
+# PWAs <br> Pretty Wreaking Awesome
 
 --
 
-# Hi! We're here to help 
+# Hi! We want to help 
 
 --
 

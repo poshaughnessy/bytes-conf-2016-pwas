@@ -609,8 +609,12 @@ pre .xml .cdata {
 
 /* Slide specific */
 
-#slide-1 h3 {
+#slide-1 h2 {
   margin: 0 0 2em 0;
+}
+
+#slide-1 p {
+  font-size: 1.2em;
 }
 
 #slide-2 h1 {
