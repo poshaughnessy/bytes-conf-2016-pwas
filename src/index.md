@@ -72,18 +72,18 @@ controls: false
 
 --
 
-<p class="media-container w-80pc centre auto fill-w">![LinkedIn app](/images/linkedin-tweets.png)</p>
+<p class="media-container centre auto fill-w" style="width:80%;">![LinkedIn app](/images/linkedin-tweets.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem -->
 
 --
 
-<p class="media-container w-80pc centre auto fill-w">![Medium app](/images/medium-peter.png)</p>
+<p class="media-container centre auto fill-w" style="width:80%;">![Medium app](/images/medium-peter.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 
 <!-- I'ts not just the Web... -->
-<!--<p class="media-container w-80pc fill-w">![EasyJet app](/images/easyjet-patrick.png)</p>-->
+<!--<p class="media-container fill-w" style="width:80%;">![EasyJet app](/images/easyjet-patrick.png)</p>-->
 
 --
 
@@ -105,6 +105,39 @@ controls: false
 <!-- TODO image of InspireHub -->
 
 --
+
+<p class="media-container fill-w">![Is Service Worker Ready?](images/isserviceworkerready.png)</p>
+<p class="caption"><a href="https://jakearchibald.github.io/isserviceworkerready/">jakearchibald.github.io/isserviceworkerready/</a></p>
+
+--
+
+## Samsung Internet
+<p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" style="width:40%"></p>
+<p class="caption"><a href="http://bit.ly/what-is-samsung-internet">bit.ly/what-is-samsung-internet</a></p>
+
+--
+
+<p class="media-container centre fill-w">![Samsung Internet browser share](images/statcounter-mobile-europe-sep2016.png)</p>
+
+<!-- http://gs.statcounter.com/#mobile_browser-eu-monthly-201609-201609-bar -->
+
+--
+
+<p class="media-container centre fill-h">![Service workers spec](images/service-workers-spec.png)</p>
+
+<!-- Message is: we're here, we want to help, we're doing some cool stuff with PWAs, WebVR... -->
+<!-- We're planning some cool stuff. And please get in touch if you need us. -->
+
+--
+
+<p class="media-container">![caniuse.com show all button](images/caniuse-showall.png)</p>
+<p class="caption"><a href="http://caniuse.com">caniuse.com</a></p>
+
+--
+
+## [bit.ly/debug-samsung-internet](https://medium.com/samsung-internet-dev/introducing-samsung-internet-for-developers-6c3a3be42f72#8f13)
+
+-- 
 
 <p class="media-container fill-h">![Snapwat](images/snapwat.png)</p>
 <p class="caption"><a href="https://medium.com/samsung-internet-dev/things-i-learned-making-a-progressive-web-app-for-super-selfies-49e76d154e4f">Snapwat</a></p>
@@ -153,45 +186,20 @@ self.addEventListener('install', event => {
 
 ## Client-side image downloads? There be dragons!
 
-<p class="media-container w-45pc auto fill-w">![Dragon](images/dragon-donstewart.jpg)</p>
+<p class="media-container auto fill-w" style="width:45%;">![Dragon](images/dragon-donstewart.jpg)</p>
 <p class="caption">By <a href="https://www.flickr.com/photos/don-stewart/2369281599">Don Stewart</a></p>
 
 ### [bit.ly/wicg-save-image](https://discourse.wicg.io/t/save-image-feature-on-mobile-platforms/1676)
 
 --
 
-<p class="media-container fill-w">![Is Service Worker Ready?](images/isserviceworkerready.png)</p>
-<p class="caption"><a href="https://jakearchibald.github.io/isserviceworkerready/">jakearchibald.github.io/isserviceworkerready/</a></p>
+## WebVR
 
---
+<p class="media-container auto fill-w" style="width:70%;">![Samsung Gear VR](images/samsung-gear-vr.jpg)</p>
 
-<p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" width="45%"></p>
-<p class="caption"><a href="http://bit.ly/what-is-samsung-internet">bit.ly/what-is-samsung-internet</a></p>
+### [developer.samsung.com/internet#gearvr-overview](http://developer.samsung.com/internet#gearvr-overview)
 
---
-
-<p class="media-container centre fill-w">![Samsung Internet browser share](images/statcounter-mobile-europe-sep2016.png)</p>
-
-<!-- http://gs.statcounter.com/#mobile_browser-eu-monthly-201609-201609-bar -->
-
---
-
-<p class="media-container centre fill-h">![Service workers spec](images/service-workers-spec.png)</p>
-
-<!-- Message is: we're here, we want to help, we're doing some cool stuff with PWAs, WebVR... -->
-<!-- We're planning some cool stuff. And please get in touch if you need us. -->
-
---
-
-TODO: slide on debugging
-
---
-
-TODO: slide on how to see Samsung Internet on caniuse
-
--- 
-
-TODO: slide on WebVR
+<!-- TODO include Ada's demo? -->
 
 --
 

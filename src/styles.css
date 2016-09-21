@@ -423,26 +423,6 @@ h2 + .media-container {
   height: 100%;
 }
 
-.w-100 {
-  width: 100px;
-}
-
-.w-200 {
-  width: 200px;
-}
-
-.w-300 {
-  width: 300px;
-}
-
-.w-45pc {
-  width: 45%;
-}
-
-.w-80pc {
-  width: 80%;
-}
-
 a {
   text-decoration: none;
   color: #15738e;

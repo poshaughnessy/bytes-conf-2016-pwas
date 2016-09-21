@@ -780,26 +780,6 @@ h2 + .media-container {
   height: 100%;
 }
 
-.w-100 {
-  width: 100px;
-}
-
-.w-200 {
-  width: 200px;
-}
-
-.w-300 {
-  width: 300px;
-}
-
-.w-45pc {
-  width: 45%;
-}
-
-.w-80pc {
-  width: 80%;
-}
-
 a {
   text-decoration: none;
   color: #15738e;
@@ -1083,17 +1063,17 @@ pre .xml .cdata {
 <p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via <a href="http://wtfmobileweb.com">http://wtfmobileweb.com</a></a></p></section>
   </div>
   <div class="slide hidden" id="slide-10">
-    <section class="slide-content"><p class="media-container w-80pc centre auto fill-w"><img src="/images/linkedin-tweets.png" alt="LinkedIn app"></p>
+    <section class="slide-content"><p class="media-container centre auto fill-w" style="width:80%;"><img src="/images/linkedin-tweets.png" alt="LinkedIn app"></p>
 
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem --></section>
   </div>
   <div class="slide hidden" id="slide-11">
-    <section class="slide-content"><p class="media-container w-80pc centre auto fill-w"><img src="/images/medium-peter.png" alt="Medium app"></p>
+    <section class="slide-content"><p class="media-container centre auto fill-w" style="width:80%;"><img src="/images/medium-peter.png" alt="Medium app"></p>
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 
 <!-- I'ts not just the Web... -->
-<!--<p class="media-container w-80pc fill-w">![EasyJet app](/images/easyjet-patrick.png)</p>--></section>
+<!--<p class="media-container fill-w" style="width:80%;">![EasyJet app](/images/easyjet-patrick.png)</p>--></section>
   </div>
   <div class="slide hidden" id="slide-12">
     <section class="slide-content"><p><blockquote>“Delays to loading web pages &amp; videos increase our heart rate and produce stress levels equivalent to watching a horror film.”</blockquote></p>
@@ -1112,6 +1092,34 @@ pre .xml .cdata {
 <!-- TODO image of InspireHub --></section>
   </div>
   <div class="slide hidden" id="slide-15">
+    <section class="slide-content"><p class="media-container fill-w"><img src="images/isserviceworkerready.png" alt="Is Service Worker Ready?"></p>
+<p class="caption"><a href="https://jakearchibald.github.io/isserviceworkerready/">jakearchibald.github.io/isserviceworkerready/</a></p></section>
+  </div>
+  <div class="slide hidden" id="slide-16">
+    <section class="slide-content"><h2 id="samsung-internet">Samsung Internet</h2>
+<p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" style="width:40%"></p>
+<p class="caption"><a href="http://bit.ly/what-is-samsung-internet">bit.ly/what-is-samsung-internet</a></p></section>
+  </div>
+  <div class="slide hidden" id="slide-17">
+    <section class="slide-content"><p class="media-container centre fill-w"><img src="images/statcounter-mobile-europe-sep2016.png" alt="Samsung Internet browser share"></p>
+
+<!-- http://gs.statcounter.com/#mobile_browser-eu-monthly-201609-201609-bar --></section>
+  </div>
+  <div class="slide hidden" id="slide-18">
+    <section class="slide-content"><p class="media-container centre fill-h"><img src="images/service-workers-spec.png" alt="Service workers spec"></p>
+
+<!-- Message is: we're here, we want to help, we're doing some cool stuff with PWAs, WebVR... -->
+<!-- We're planning some cool stuff. And please get in touch if you need us. --></section>
+  </div>
+  <div class="slide hidden" id="slide-19">
+    <section class="slide-content"><p class="media-container"><img src="images/caniuse-showall.png" alt="caniuse.com show all button"></p>
+<p class="caption"><a href="http://caniuse.com">caniuse.com</a></p></section>
+  </div>
+  <div class="slide hidden" id="slide-20">
+    <section class="slide-content"><h2 id="-bit-ly-debug-samsung-internet-https-medium-com-samsung-internet-dev-introducing-samsung-internet-for-developers-6c3a3be42f72-8f13-"><a href="https://medium.com/samsung-internet-dev/introducing-samsung-internet-for-developers-6c3a3be42f72#8f13">bit.ly/debug-samsung-internet</a></h2>
+</section>
+  </div>
+  <div class="slide hidden  " id="slide-21">
     <section class="slide-content"><p class="media-container fill-h"><img src="images/snapwat.png" alt="Snapwat"></p>
 <p class="caption"><a href="https://medium.com/samsung-internet-dev/things-i-learned-making-a-progressive-web-app-for-super-selfies-49e76d154e4f">Snapwat</a></p>
 
@@ -1121,7 +1129,7 @@ pre .xml .cdata {
 <!--* Web App Manifest-->
 <!--* WebRTC--></section>
   </div>
-  <div class="slide hidden" id="slide-16">
+  <div class="slide hidden" id="slide-22">
     <section class="slide-content"><pre><code class="lang-javascript"><span class="hljs-keyword">const</span> RESOURCES = [  
   <span class="hljs-string">'/'</span>,  
   <span class="hljs-string">'/css/styles.css'</span>,  
@@ -1142,7 +1150,7 @@ self.addEventListener(<span class="hljs-string">'install'</span>, event =&gt; {
 });</code></pre>
 </section>
   </div>
-  <div class="slide hidden" id="slide-17">
+  <div class="slide hidden" id="slide-23">
     <section class="slide-content"><h2 id="automatic-cache-list-generation">Automatic cache list generation</h2>
 <ul>
 <li><a href="https://github.com/GoogleChrome/sw-precache">github.com/GoogleChrome/sw-precache</a></li>
@@ -1150,48 +1158,24 @@ self.addEventListener(<span class="hljs-string">'install'</span>, event =&gt; {
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-18">
+  <div class="slide hidden" id="slide-24">
     <section class="slide-content"><h2 id="don-t-pre-cache-too-much">Don&#39;t pre-cache too much</h2>
 </section>
   </div>
-  <div class="slide hidden" id="slide-19">
+  <div class="slide hidden" id="slide-25">
     <section class="slide-content"><h2 id="client-side-image-downloads-there-be-dragons-">Client-side image downloads? There be dragons!</h2>
-<p class="media-container w-45pc auto fill-w"><img src="images/dragon-donstewart.jpg" alt="Dragon"></p>
+<p class="media-container auto fill-w" style="width:45%;"><img src="images/dragon-donstewart.jpg" alt="Dragon"></p>
 <p class="caption">By <a href="https://www.flickr.com/photos/don-stewart/2369281599">Don Stewart</a></p>
 
 <h3 id="-bit-ly-wicg-save-image-https-discourse-wicg-io-t-save-image-feature-on-mobile-platforms-1676-"><a href="https://discourse.wicg.io/t/save-image-feature-on-mobile-platforms/1676">bit.ly/wicg-save-image</a></h3>
 </section>
   </div>
-  <div class="slide hidden" id="slide-20">
-    <section class="slide-content"><p class="media-container fill-w"><img src="images/isserviceworkerready.png" alt="Is Service Worker Ready?"></p>
-<p class="caption"><a href="https://jakearchibald.github.io/isserviceworkerready/">jakearchibald.github.io/isserviceworkerready/</a></p></section>
-  </div>
-  <div class="slide hidden" id="slide-21">
-    <section class="slide-content"><p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" width="45%"></p>
-<p class="caption"><a href="http://bit.ly/what-is-samsung-internet">bit.ly/what-is-samsung-internet</a></p></section>
-  </div>
-  <div class="slide hidden" id="slide-22">
-    <section class="slide-content"><p class="media-container centre fill-w"><img src="images/statcounter-mobile-europe-sep2016.png" alt="Samsung Internet browser share"></p>
+  <div class="slide hidden" id="slide-26">
+    <section class="slide-content"><h2 id="webvr">WebVR</h2>
+<p class="media-container auto fill-w" style="width:70%;"><img src="images/samsung-gear-vr.jpg" alt="Samsung Gear VR"></p>
 
-<!-- http://gs.statcounter.com/#mobile_browser-eu-monthly-201609-201609-bar --></section>
-  </div>
-  <div class="slide hidden" id="slide-23">
-    <section class="slide-content"><p class="media-container centre fill-h"><img src="images/service-workers-spec.png" alt="Service workers spec"></p>
-
-<!-- Message is: we're here, we want to help, we're doing some cool stuff with PWAs, WebVR... -->
-<!-- We're planning some cool stuff. And please get in touch if you need us. --></section>
-  </div>
-  <div class="slide hidden" id="slide-24">
-    <section class="slide-content"><p>TODO: slide on debugging</p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-25">
-    <section class="slide-content"><p>TODO: slide on how to see Samsung Internet on caniuse</p>
-</section>
-  </div>
-  <div class="slide hidden  " id="slide-26">
-    <section class="slide-content"><p>TODO: slide on WebVR</p>
-</section>
+<h3 id="-developer-samsung-com-internet-gearvr-overview-http-developer-samsung-com-internet-gearvr-overview-"><a href="http://developer.samsung.com/internet#gearvr-overview">developer.samsung.com/internet#gearvr-overview</a></h3>
+<!-- TODO include Ada's demo? --></section>
   </div>
   <div class="slide hidden" id="slide-27">
     <section class="slide-content"><p class="media-container fill-h"><img src="images/payment-request-ui-chrome.png" alt="Payment Request UI"></p>
