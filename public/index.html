@@ -533,6 +533,7 @@ body {
   font-size: 100%;
   background-color: #fff;
   text-align: center;
+  overflow: hidden;
 }
 
 html,
@@ -556,7 +557,7 @@ body {
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: center;
   background-color: #fff;
 }
 
@@ -568,7 +569,7 @@ body {
   font-size: 200%;
   font-weight: 200;
   line-height: 1.375;
-  overflow: auto;
+  overflow: hidden;
 }
 
 .no-margin {
@@ -734,30 +735,27 @@ blockquote {
   border: none;
 }
 
-.vertical-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 100%;
-  margin: 0;
-}
-
 p {
   margin: 0 0 1em 0;
 }
 
 .media-container {
-  max-height: -webkit-calc(95vh - 2em);
-  max-height: calc(95vh - 2em);
-  margin: 0;
+  height: -webkit-calc(95vh - 3em);
+  height: calc(95vh - 3em);
+  margin: 4% 0 0 0;
+}
+
+.media-container.centre {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
 }
 
-.media-container.fill-h {
-  height: -webkit-calc(85vh - 2em);
-  height: calc(85vh - 2em);
-  margin-top: 4%;
+.media-container + h2 {
+  margin-top: 0.3em;
 }
 
 .fill-w > * {
@@ -1016,7 +1014,7 @@ pre .xml .cdata {
 </section>
   </div>
   <div class="slide hidden" id="slide-3">
-    <section class="slide-content"><p class="media-container"><img src="images/vitamins.jpg" alt="Vitamins"></p>
+    <section class="slide-content"><p class="media-container fill-w"><img src="images/vitamins.jpg" alt="Vitamins"></p>
 
 <h2 id="-just-websites-that-took-all-the-right-vitamins-">“Just websites that took all the right vitamins”</h2>
 </section>
@@ -1053,11 +1051,11 @@ pre .xml .cdata {
     <section class="slide-content"><p class="media-container fill-w"><img src="images/gartner-hype-cycle.svg" alt="Gartner Hype Cycle"></p></section>
   </div>
   <div class="slide hidden" id="slide-7">
-    <section class="slide-content"><h1 id="maximising-reach">Maximising reach</h1>
+    <section class="slide-content"><h1 id="maximising-reach-">Maximising reach.</h1>
 </section>
   </div>
   <div class="slide hidden" id="slide-8">
-    <section class="slide-content"><h1 id="minimising-friction">Minimising friction</h1>
+    <section class="slide-content"><h1 id="minimising-friction-">Minimising friction.</h1>
 <!-- The best of web and native --></section>
   </div>
   <div class="slide hidden" id="slide-9">
@@ -1065,12 +1063,12 @@ pre .xml .cdata {
 <p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via <a href="http://wtfmobileweb.com">http://wtfmobileweb.com</a></a></p></section>
   </div>
   <div class="slide hidden" id="slide-10">
-    <section class="slide-content"><p class="media-container w-80pc fill-w"><img src="/images/linkedin-tweets.png" alt="LinkedIn app"></p>
+    <section class="slide-content"><p class="media-container w-80pc centre fill-w"><img src="/images/linkedin-tweets.png" alt="LinkedIn app"></p>
 
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem --></section>
   </div>
   <div class="slide hidden" id="slide-11">
-    <section class="slide-content"><p class="media-container w-80pc fill-w"><img src="/images/medium-peter.png" alt="Medium app"></p>
+    <section class="slide-content"><p class="media-container w-80pc centre fill-w"><img src="/images/medium-peter.png" alt="Medium app"></p>
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 

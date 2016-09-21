@@ -21,7 +21,7 @@ controls: false
 
 --
 
-<p class="media-container">![Vitamins](images/vitamins.jpg)</p>
+<p class="media-container fill-w">![Vitamins](images/vitamins.jpg)</p>
 
 ## “Just websites that took all the right vitamins”
 
@@ -57,11 +57,11 @@ controls: false
 
 --
 
-# Maximising reach
+# Maximising reach.
 
 --
 
-# Minimising friction
+# Minimising friction.
 
 <!-- The best of web and native -->
 
@@ -72,13 +72,13 @@ controls: false
 
 --
 
-<p class="media-container w-80pc fill-w">![LinkedIn app](/images/linkedin-tweets.png)</p>
+<p class="media-container w-80pc centre fill-w">![LinkedIn app](/images/linkedin-tweets.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem -->
 
 --
 
-<p class="media-container w-80pc fill-w">![Medium app](/images/medium-peter.png)</p>
+<p class="media-container w-80pc centre fill-w">![Medium app](/images/medium-peter.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 
