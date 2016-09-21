@@ -77,18 +77,18 @@ controls: false
 
 --
 
-<p class="media-container centre auto fill-w" style="width:80%">![LinkedIn app](/images/linkedin-tweets.png)</p>
+<p class="media-container centre auto fill-w" style="width:80%">![LinkedIn app](images/linkedin-tweets.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem -->
 
 --
 
-<p class="media-container centre auto fill-w" style="width:80%">![Medium app](/images/medium-peter.png)</p>
+<p class="media-container centre auto fill-w" style="width:80%">![Medium app](images/medium-peter.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 
 <!-- I'ts not just the Web... -->
-<!--<p class="media-container fill-w" style="width:80%">![EasyJet app](/images/easyjet-patrick.png)</p>-->
+<!--<p class="media-container fill-w" style="width:80%">![EasyJet app](images/easyjet-patrick.png)</p>-->
 
 --
 
@@ -178,6 +178,7 @@ controls: false
 ```javascript
 const RESOURCES = [  
   '/',  
+  '/index.html',
   '/css/styles.css',  
   '/build/bundle.js',  
   '/images/emojione/1f354.svg',  
@@ -206,6 +207,8 @@ self.addEventListener('install', event => {
 --
 
 ## Don't pre-cache too much.
+
+<!-- TODO add one on URLs not files -->
 
 --
 
