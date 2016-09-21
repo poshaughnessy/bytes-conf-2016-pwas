@@ -72,18 +72,18 @@ controls: false
 
 --
 
-<p class="media-container centre auto fill-w" style="width:80%;">![LinkedIn app](/images/linkedin-tweets.png)</p>
+<p class="media-container centre auto fill-w" style="width:80%">![LinkedIn app](/images/linkedin-tweets.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem -->
 
 --
 
-<p class="media-container centre auto fill-w" style="width:80%;">![Medium app](/images/medium-peter.png)</p>
+<p class="media-container centre auto fill-w" style="width:80%">![Medium app](/images/medium-peter.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 
 <!-- I'ts not just the Web... -->
-<!--<p class="media-container fill-w" style="width:80%;">![EasyJet app](/images/easyjet-patrick.png)</p>-->
+<!--<p class="media-container fill-w" style="width:80%">![EasyJet app](/images/easyjet-patrick.png)</p>-->
 
 --
 
@@ -111,6 +111,8 @@ controls: false
 
 --
 
+<!-- For Android, based on Chromium, available on Play Store for Samsung Galaxy devices -->
+
 ## Samsung Internet
 <p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" style="width:40%"></p>
 <p class="caption"><a href="http://bit.ly/what-is-samsung-internet">bit.ly/what-is-samsung-internet</a></p>
@@ -122,6 +124,16 @@ controls: false
 <!-- http://gs.statcounter.com/#mobile_browser-eu-monthly-201609-201609-bar -->
 
 --
+
+<!-- Why do we have our own browser? To provide the best experience for our users -->
+
+* Optimised for hardware
+* Integration with e.g. Gear VR, iris scanner
+* Content blockers
+
+--
+
+<!-- Based on open standards and we contribute to them -->
 
 <p class="media-container centre fill-h">![Service workers spec](images/service-workers-spec.png)</p>
 
@@ -135,9 +147,17 @@ controls: false
 
 --
 
+<p class="media-container fill-w auto" style="width:80%"><img src="images/remote-debugging.png" alt="Remote Debugging"></p>
+
 ## [bit.ly/debug-samsung-internet](https://medium.com/samsung-internet-dev/introducing-samsung-internet-for-developers-6c3a3be42f72#8f13)
 
 -- 
+
+<p class="media-container fill-w auto" style="width:80%"><img src="images/remotetestlab.png" alt="Samsung Remote Test Lab"></p>
+
+## [developer.samsung.com/remotetestlab/](http://developer.samsung.com/remotetestlab/rtlDeviceList.action)
+
+--
 
 <p class="media-container fill-h">![Snapwat](images/snapwat.png)</p>
 <p class="caption"><a href="https://medium.com/samsung-internet-dev/things-i-learned-making-a-progressive-web-app-for-super-selfies-49e76d154e4f">Snapwat</a></p>
@@ -186,7 +206,7 @@ self.addEventListener('install', event => {
 
 ## Client-side image downloads? There be dragons!
 
-<p class="media-container auto fill-w" style="width:45%;">![Dragon](images/dragon-donstewart.jpg)</p>
+<p class="media-container auto fill-w" style="width:45%">![Dragon](images/dragon-donstewart.jpg)</p>
 <p class="caption">By <a href="https://www.flickr.com/photos/don-stewart/2369281599">Don Stewart</a></p>
 
 ### [bit.ly/wicg-save-image](https://discourse.wicg.io/t/save-image-feature-on-mobile-platforms/1676)
@@ -195,7 +215,7 @@ self.addEventListener('install', event => {
 
 ## WebVR
 
-<p class="media-container auto fill-w" style="width:70%;">![Samsung Gear VR](images/samsung-gear-vr.jpg)</p>
+<p class="media-container auto fill-w" style="width:70%">![Samsung Gear VR](images/samsung-gear-vr.jpg)</p>
 
 ### [developer.samsung.com/internet#gearvr-overview](http://developer.samsung.com/internet#gearvr-overview)
 
