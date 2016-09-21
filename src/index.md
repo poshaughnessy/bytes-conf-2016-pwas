@@ -131,13 +131,13 @@ controls: false
 
 --
 
-<p class="media-container fill-w">![Samsung Internet browser share](images/statcounter-mobile-europe-sep2016.png)</p>
+<p class="media-container centre fill-w">![Samsung Internet browser share](images/statcounter-mobile-europe-sep2016.png)</p>
 
 <!-- http://gs.statcounter.com/#mobile_browser-eu-monthly-201609-201609-bar -->
 
 --
 
-<p class="media-container fill-h">![Service workers spec](images/service-workers-spec.png)</p>
+<p class="media-container centre fill-h">![Service workers spec](images/service-workers-spec.png)</p>
 
 <!-- Message is: we're here, we want to help, we're doing some cool stuff with PWAs, WebVR... -->
 <!-- We're planning some cool stuff. And please get in touch if you need us. -->
