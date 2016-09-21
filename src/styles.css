@@ -215,6 +215,10 @@ body {
   overflow: hidden;
 }
 
+.slide-content h2:first-child {
+  margin-top: 0.6em;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -397,8 +401,18 @@ p {
   overflow: hidden;
 }
 
+h2 + .media-container {
+  margin-top: 0.3em;
+}
+
 .media-container + h2 {
   margin-top: 0.3em;
+}
+
+.auto {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
 }
 
 .fill-w > * {
@@ -421,10 +435,12 @@ p {
   width: 300px;
 }
 
+.w-45pc {
+  width: 45%;
+}
+
 .w-80pc {
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 a {
@@ -482,6 +498,10 @@ table th {
 .caption {
   font-size: 0.7em;
   margin-top: 0.5em;
+}
+
+.auto + .caption {
+  margin: 0 0 1.5em 0;
 }
 
 /* Code Highlighting */

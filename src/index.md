@@ -72,13 +72,13 @@ controls: false
 
 --
 
-<p class="media-container w-80pc centre fill-w">![LinkedIn app](/images/linkedin-tweets.png)</p>
+<p class="media-container w-80pc centre auto fill-w">![LinkedIn app](/images/linkedin-tweets.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem -->
 
 --
 
-<p class="media-container w-80pc centre fill-w">![Medium app](/images/medium-peter.png)</p>
+<p class="media-container w-80pc centre auto fill-w">![Medium app](/images/medium-peter.png)</p>
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 
@@ -117,7 +117,46 @@ controls: false
 
 --
 
+```javascript
+const RESOURCES = [  
+  '/',  
+  '/css/styles.css',  
+  '/build/bundle.js',  
+  '/images/emojione/1f354.svg',  
+  '/images/emojione/1f369.svg',
+  ...
+];
+// Cache pre-defined assets on installation
+self.addEventListener('install', event => {   
+  function onInstall () {     
+    return caches.open('cache-v1')
+      .then(cache => {        
+        cache.addAll( RESOURCES );        
+      });  
+  }   
+  event.waitUntil(onInstall(event));
+});
+```
 
+--
+
+## Automatic cache list generation
+
+* [github.com/GoogleChrome/sw-precache](https://github.com/GoogleChrome/sw-precache)
+* [bit.ly/rollup-precache](https://gitlab.com/Rich-Harris/rollup-cache-manifest-example/tree/master)
+
+--
+
+## Don't pre-cache too much
+
+--
+
+## Client-side image downloads? There be dragons!
+
+<p class="media-container w-45pc auto fill-w">![Dragon](images/dragon-donstewart.jpg)</p>
+<p class="caption">By <a href="https://www.flickr.com/photos/don-stewart/2369281599">Don Stewart</a></p>
+
+### [bit.ly/wicg-save-image](https://discourse.wicg.io/t/save-image-feature-on-mobile-platforms/1676)
 
 --
 
@@ -172,7 +211,7 @@ TODO: slide on WebVR
 
 --
 
-<h1>Thanks!</h1>
+<h1>Thanks</h1>
 
 <div class="group-closer">
   <p>[@poshaughnessy](https://twitter.com/poshaughnessy)</p>

@@ -572,6 +572,10 @@ body {
   overflow: hidden;
 }
 
+.slide-content h2:first-child {
+  margin-top: 0.6em;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -754,8 +758,18 @@ p {
   overflow: hidden;
 }
 
+h2 + .media-container {
+  margin-top: 0.3em;
+}
+
 .media-container + h2 {
   margin-top: 0.3em;
+}
+
+.auto {
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
 }
 
 .fill-w > * {
@@ -778,10 +792,12 @@ p {
   width: 300px;
 }
 
+.w-45pc {
+  width: 45%;
+}
+
 .w-80pc {
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 a {
@@ -839,6 +855,10 @@ table th {
 .caption {
   font-size: 0.7em;
   margin-top: 0.5em;
+}
+
+.auto + .caption {
+  margin: 0 0 1.5em 0;
 }
 
 /* Code Highlighting */
@@ -1063,12 +1083,12 @@ pre .xml .cdata {
 <p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via <a href="http://wtfmobileweb.com">http://wtfmobileweb.com</a></a></p></section>
   </div>
   <div class="slide hidden" id="slide-10">
-    <section class="slide-content"><p class="media-container w-80pc centre fill-w"><img src="/images/linkedin-tweets.png" alt="LinkedIn app"></p>
+    <section class="slide-content"><p class="media-container w-80pc centre auto fill-w"><img src="/images/linkedin-tweets.png" alt="LinkedIn app"></p>
 
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem --></section>
   </div>
   <div class="slide hidden" id="slide-11">
-    <section class="slide-content"><p class="media-container w-80pc centre fill-w"><img src="/images/medium-peter.png" alt="Medium app"></p>
+    <section class="slide-content"><p class="media-container w-80pc centre auto fill-w"><img src="/images/medium-peter.png" alt="Medium app"></p>
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 
@@ -1102,56 +1122,94 @@ pre .xml .cdata {
 <!--* WebRTC--></section>
   </div>
   <div class="slide hidden" id="slide-16">
-    <section class="slide-content"></section>
+    <section class="slide-content"><pre><code class="lang-javascript"><span class="hljs-keyword">const</span> RESOURCES = [  
+  <span class="hljs-string">'/'</span>,  
+  <span class="hljs-string">'/css/styles.css'</span>,  
+  <span class="hljs-string">'/build/bundle.js'</span>,  
+  <span class="hljs-string">'/images/emojione/1f354.svg'</span>,  
+  <span class="hljs-string">'/images/emojione/1f369.svg'</span>,
+  ...
+];
+<span class="hljs-comment">// Cache pre-defined assets on installation</span>
+self.addEventListener(<span class="hljs-string">'install'</span>, event =&gt; {   
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">onInstall</span> (<span class="hljs-params"></span>) </span>{     
+    <span class="hljs-keyword">return</span> caches.open(<span class="hljs-string">'cache-v1'</span>)
+      .then(cache =&gt; {        
+        cache.addAll( RESOURCES );        
+      });  
+  }   
+  event.waitUntil(onInstall(event));
+});</code></pre>
+</section>
   </div>
   <div class="slide hidden" id="slide-17">
+    <section class="slide-content"><h2 id="automatic-cache-list-generation">Automatic cache list generation</h2>
+<ul>
+<li><a href="https://github.com/GoogleChrome/sw-precache">github.com/GoogleChrome/sw-precache</a></li>
+<li><a href="https://gitlab.com/Rich-Harris/rollup-cache-manifest-example/tree/master">bit.ly/rollup-precache</a></li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-18">
+    <section class="slide-content"><h2 id="don-t-pre-cache-too-much">Don&#39;t pre-cache too much</h2>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-19">
+    <section class="slide-content"><h2 id="client-side-image-downloads-there-be-dragons-">Client-side image downloads? There be dragons!</h2>
+<p class="media-container w-45pc auto fill-w"><img src="images/dragon-donstewart.jpg" alt="Dragon"></p>
+<p class="caption">By <a href="https://www.flickr.com/photos/don-stewart/2369281599">Don Stewart</a></p>
+
+<h3 id="-bit-ly-wicg-save-image-https-discourse-wicg-io-t-save-image-feature-on-mobile-platforms-1676-"><a href="https://discourse.wicg.io/t/save-image-feature-on-mobile-platforms/1676">bit.ly/wicg-save-image</a></h3>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-20">
     <section class="slide-content"><p class="media-container fill-w"><img src="images/isserviceworkerready.png" alt="Is Service Worker Ready?"></p>
 <p class="caption"><a href="https://jakearchibald.github.io/isserviceworkerready/">jakearchibald.github.io/isserviceworkerready/</a></p></section>
   </div>
-  <div class="slide hidden" id="slide-18">
+  <div class="slide hidden" id="slide-21">
     <section class="slide-content"><p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" width="45%"></p>
 <p class="caption"><a href="http://bit.ly/what-is-samsung-internet">bit.ly/what-is-samsung-internet</a></p></section>
   </div>
-  <div class="slide hidden" id="slide-19">
+  <div class="slide hidden" id="slide-22">
     <section class="slide-content"><p class="media-container centre fill-w"><img src="images/statcounter-mobile-europe-sep2016.png" alt="Samsung Internet browser share"></p>
 
 <!-- http://gs.statcounter.com/#mobile_browser-eu-monthly-201609-201609-bar --></section>
   </div>
-  <div class="slide hidden" id="slide-20">
+  <div class="slide hidden" id="slide-23">
     <section class="slide-content"><p class="media-container centre fill-h"><img src="images/service-workers-spec.png" alt="Service workers spec"></p>
 
 <!-- Message is: we're here, we want to help, we're doing some cool stuff with PWAs, WebVR... -->
 <!-- We're planning some cool stuff. And please get in touch if you need us. --></section>
   </div>
-  <div class="slide hidden" id="slide-21">
+  <div class="slide hidden" id="slide-24">
     <section class="slide-content"><p>TODO: slide on debugging</p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-22">
+  <div class="slide hidden" id="slide-25">
     <section class="slide-content"><p>TODO: slide on how to see Samsung Internet on caniuse</p>
 </section>
   </div>
-  <div class="slide hidden  " id="slide-23">
+  <div class="slide hidden  " id="slide-26">
     <section class="slide-content"><p>TODO: slide on WebVR</p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-24">
+  <div class="slide hidden" id="slide-27">
     <section class="slide-content"><p class="media-container fill-h"><img src="images/payment-request-ui-chrome.png" alt="Payment Request UI"></p>
 <p class="caption"><a href="https://developers.google.com/web/fundamentals/primers/payment-request/">developers.google.com/web/fundamentals/primers/payment-request/</a></p>
 
 <!-- Samsung Internet are also working on this - W3C Web Pay with credit card (first) and Samsung Pay (later) -->
 <!-- and we're involved in the standard.. joined the W3C WG and contribute..--></section>
   </div>
-  <div class="slide hidden" id="slide-25">
+  <div class="slide hidden" id="slide-28">
     <section class="slide-content"><h1 id="pwas-are-awesome">PWAs are awesome</h1>
 </section>
   </div>
-  <div class="slide hidden" id="slide-26">
+  <div class="slide hidden" id="slide-29">
     <section class="slide-content"><h1 id="hi-we-re-here-to-help">Hi! We&#39;re here to help</h1>
 </section>
   </div>
-  <div class="slide hidden" id="slide-27">
-    <section class="slide-content"><h1>Thanks!</h1>
+  <div class="slide hidden" id="slide-30">
+    <section class="slide-content"><h1>Thanks</h1>
 
 <div class="group-closer">
   <p><a href="https://twitter.com/poshaughnessy">@poshaughnessy</a></p>
