@@ -21,7 +21,7 @@ controls: false
 
 --
 
-<p class="media-container fill-w">![Vitamins](images/vitamins.jpg)</p>
+<p class="media-container auto fill-w" style="width:85%">![Vitamins](images/vitamins.jpg)</p>
 
 ## “Just websites that took all the right vitamins”
 
