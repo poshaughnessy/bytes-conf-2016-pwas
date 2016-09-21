@@ -223,12 +223,13 @@ body {
   margin: 0;
 }
 
-.group-closer {
+.contact {
   margin-bottom: 1.5em;
 }
 
-.group-closer p {
+.contact p {
   margin-bottom: 0.5em;
+  font-size: 1.2em;
 }
 
 img {
@@ -333,10 +334,11 @@ ul {
 li {
   text-align: left;
   margin-bottom: 0.5em;
+  font-size: 1.2em;
 }
 
 .long-list li {
-  margin-bottom: 0.1em;
+  font-size: 1em;
 }
 
 blockquote {
@@ -611,10 +613,6 @@ pre .xml .cdata {
 
 #slide-1 h2 {
   margin: 0 0 2em 0;
-}
-
-#slide-1 p {
-  font-size: 1.2em;
 }
 
 #slide-2 h1 {

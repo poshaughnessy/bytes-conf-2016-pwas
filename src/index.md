@@ -10,7 +10,7 @@ controls: false
 
 ## And the biggest browser you’ve probably never thought of 
 
-<div class="group-closer">
+<div class="contact">
   <p>Peter O'Shaughnessy</p>
   <p>[@poshaughnessy](https://twitter.com/poshaughnessy)</p>
 </div>
@@ -21,33 +21,38 @@ controls: false
 
 --
 
-<p class="media-container auto fill-w" style="width:85%">![Vitamins](images/vitamins.jpg)</p>
-
 ## “Just websites that took all the right vitamins”
+
+<p class="media-container auto fill-w" style="width:65%">![Popeye](images/popeye.jpg)</p>
+<p class="caption">By [Mike Mozart](https://www.flickr.com/photos/jeepersmedia/17144071448)</p>
 
 --
 
-* Secure
-* Offline
-* App-like
-* Web-like
-* Engaging
-* Sized to your device
-* Up-to-date
-* Manifest-ready
+<ul class="long-list">
+    <li>Secure</li>
+    <li>Offline</li>
+    <li>App-like</li>
+    <li>Web-like</li>
+    <li>Engaging</li>
+    <li>Sized to your device</li>
+    <li>Up-to-date</li>
+    <li>Manifest-ready</li>
+</ul>
 
 ## &nbsp;
 
 --
 
-* **S**ecure
-* **O**ffline
-* **A**pp-like
-* **W**eb-like
-* **E**ngaging
-* **S**ized to your device
-* **U**p-to-date
-* **M**anifest-ready
+<ul class="long-list">
+    <li>**S**ecure</li>
+    <li>**O**ffline</li>
+    <li>**A**pp-like</li>
+    <li>**W**eb-like</li>
+    <li>**E**ngaging</li>
+    <li>**S**ized to your device</li>
+    <li>**U**p-to-date</li>
+    <li>**M**anifest-ready</li>
+</ul>
 
 ## “SO AWESUM”
 
@@ -200,7 +205,7 @@ self.addEventListener('install', event => {
 
 --
 
-## Don't pre-cache too much
+## Don't pre-cache too much.
 
 --
 
@@ -231,17 +236,19 @@ self.addEventListener('install', event => {
 
 --
 
-# PWAs <br> Pretty Wreaking Awesome
+# PWAs <br> *Pretty Wreaking Awesome*
 
 --
 
-# Hi! We want to help 
+<h1 class="no-margin">Hi! We'd like to help</h1> 
+
+<p class="media-container fill-w auto" style="width: 30%">![Hello](images/hand-raised.png)</p>
 
 --
 
-<h1>Thanks</h1>
+<h1>Thanks!</h1>
 
-<div class="group-closer">
+<div class="contact">
   <p>[@poshaughnessy](https://twitter.com/poshaughnessy)</p>
   <p>[@sbrowserdevrel](https://twitter.com/sbrowserdevrel)</p>
   <p>[medium.com/samsung-internet-dev](https://medium.com/samsung-internet-dev)</p>
