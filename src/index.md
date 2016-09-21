@@ -17,9 +17,11 @@ controls: false
 
 --
 
-# PWAs?
+# PWAs
 
 --
+
+<p class="media-container">![Vitamins](images/vitamins.jpg)</p>
 
 ## “Just websites that took all the right vitamins”
 
@@ -51,6 +53,20 @@ controls: false
 
 --
 
+<p class="media-container fill-w">![Gartner Hype Cycle](images/gartner-hype-cycle.svg)</p>
+
+--
+
+# Maximising reach
+
+--
+
+# Minimising friction
+
+<!-- The best of web and native -->
+
+--
+
 <p class="media-container fill-h">![Facebook web app](images/facebook.png)</p>
 <p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via http://wtfmobileweb.com</a></p>
 
@@ -66,11 +82,8 @@ controls: false
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 
---
-
-<p class="media-container w-80pc fill-w">![EasyJet app](/images/easyjet-patrick.png)</p>
-
-<!-- It's not just the Web... -->
+<!-- I'ts not just the Web... -->
+<!--<p class="media-container w-80pc fill-w">![EasyJet app](/images/easyjet-patrick.png)</p>-->
 
 --
 
@@ -78,12 +91,6 @@ controls: false
 <p class="caption"><a href="http://www.telegraph.co.uk/technology/2016/03/17/stressed-out-it-could-be-your-slow-internet/">The Telegraph</a></p>
 
 <!-- And according to other studies, stress can cause early death. So basically without service workers, we're killing people! -->
-
---
-
-# Minimising friction. Maximising reach.
-
-<!-- The best of web and native -->
 
 --
 
@@ -95,9 +102,7 @@ controls: false
 <p class="media-container fill-h">![Flipkart](images/flipkart.png)</p>
 <p class="caption"><a href="https://developers.google.com/web/showcase/2016/flipkart">Flipkart PWA: 3x dwell time, 70% more conversions</a></p>
 
---
-
-TODO image of InspireHub
+<!-- TODO image of InspireHub -->
 
 --
 
@@ -105,10 +110,14 @@ TODO image of InspireHub
 <p class="caption"><a href="https://medium.com/samsung-internet-dev/things-i-learned-making-a-progressive-web-app-for-super-selfies-49e76d154e4f">Snapwat</a></p>
 
 <!-- I wanted to develop a PWA myself... -->
+<!--* HTTPS (Cloudflare)-->
+<!--* Service worker-->
+<!--* Web App Manifest-->
+<!--* WebRTC-->
 
 --
 
-TODO lessons learned from Snapwat
+
 
 --
 

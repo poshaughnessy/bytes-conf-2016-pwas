@@ -615,6 +615,10 @@ pre .xml .cdata {
   margin: 0 0 2em 0;
 }
 
+#slide-2 h1 {
+  font-size: 3.5em;
+}
+
 /* Media queries */
 
 @media (max-width: 600px) {
