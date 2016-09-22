@@ -113,6 +113,11 @@ controls: false
 
 --
 
+<p class="media-container auto fill-w" style="width:85%">![Google Web Showcase](images/google-web-showcase.png)</p>
+### [developers.google.com/web/showcase/](https://developers.google.com/web/showcase/)
+
+--
+
 <p class="media-container fill-w">![Is Service Worker Ready?](images/isserviceworkerready.png)</p>
 <p class="caption"><a href="https://jakearchibald.github.io/isserviceworkerready/">jakearchibald.github.io/isserviceworkerready/</a></p>
 
@@ -167,7 +172,7 @@ controls: false
 --
 
 <p class="media-container fill-h">![Snapwat](images/snapwat.png)</p>
-<p class="caption"><a href="https://medium.com/samsung-internet-dev/things-i-learned-making-a-progressive-web-app-for-super-selfies-49e76d154e4f">Snapwat</a></p>
+<p class="caption">[github.com/SamsungInternet/snapwat](https://github.com/SamsungInternet/snapwat)</p>
 
 <!-- I wanted to develop a PWA myself... -->
 <!--* HTTPS (Cloudflare)-->
@@ -219,6 +224,12 @@ self.addEventListener('install', event => {
 <p class="caption">By <a href="https://www.flickr.com/photos/don-stewart/2369281599">Don Stewart</a></p>
 
 ### [bit.ly/wicg-save-image](https://discourse.wicg.io/t/save-image-feature-on-mobile-platforms/1676)
+
+--
+
+## I still have work to do...
+
+<p class="media-container auto fill-w" style="width: 70%">![getUserMedia caniuse.com](images/caniuse-getusermedia.png)</p>
 
 --
 
