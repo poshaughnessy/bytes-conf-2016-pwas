@@ -204,9 +204,7 @@ self.addEventListener('install', event => {
 * [github.com/GoogleChrome/sw-precache](https://github.com/GoogleChrome/sw-precache)
 * [bit.ly/rollup-precache](https://gitlab.com/Rich-Harris/rollup-cache-manifest-example/tree/master)
 
---
-
-## Don't pre-cache too much.
+### *But don't pre-cache too much!*
 
 <!-- TODO add one on URLs not files -->
 
