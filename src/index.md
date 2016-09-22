@@ -227,7 +227,10 @@ self.addEventListener('install', event => {
 
 ### [developer.samsung.com/internet#gearvr-overview](http://developer.samsung.com/internet#gearvr-overview)
 
-<!-- TODO include Ada's demo? -->
+--
+
+<p class="media-container auto fill-w" style="width:85%">![A-Frame Racer demo by Ada](images/aframe-racer-ada.png)</p>
+### [https://github.com/SamsungInternet/a-frame-demos](github.com/SamsungInternet/a-frame-demos)
 
 --
 
@@ -239,7 +242,11 @@ self.addEventListener('install', event => {
 
 --
 
-# PWAs <br> *Pretty Wreaking Awesome*
+# PWAs <br> *&nbsp;*
+
+--
+
+# PWAs <br> *Pretty Wrecking Awesome*
 
 --
 
