@@ -2,7 +2,7 @@ title: PWAs and the biggest browser you've probably never thought of
 output: public/index.html
 style: styles.css
 script: script.js
-controls: false
+controls: true
 
 --
 
