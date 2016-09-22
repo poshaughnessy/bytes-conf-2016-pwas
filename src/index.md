@@ -2,7 +2,7 @@ title: PWAs and the biggest browser you've probably never thought of
 output: public/index.html
 style: styles.css
 script: script.js
-controls: true
+controls: false
 
 --
 
@@ -72,6 +72,13 @@ controls: true
 
 --
 
+<blockquote>“Delays to loading web pages &amp; videos increase our heart rate and produce stress levels equivalent to watching a horror film.”</blockquote>
+<p class="caption"><a href="http://www.telegraph.co.uk/technology/2016/03/17/stressed-out-it-could-be-your-slow-internet/">The Telegraph</a></p>
+
+<!-- And according to other studies, stress can cause early death. So basically without service workers, we're killing people! -->
+
+--
+
 <p class="media-container fill-h">![Facebook web app](images/facebook.png)</p>
 <p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via http://wtfmobileweb.com</a></p>
 
@@ -81,21 +88,12 @@ controls: true
 
 <!-- TODO if time: Use Reflector, record video of LinkedIn problem -->
 
---
-
-<p class="media-container centre auto fill-w" style="width:80%">![Medium app](images/medium-peter.png)</p>
+<!--<p class="media-container centre auto fill-w" style="width:80%">![Medium app](images/medium-peter.png)</p>-->
 
 <!-- TODO if time: Use Reflector, record video of Medium problem -->
 
 <!-- I'ts not just the Web... -->
 <!--<p class="media-container fill-w" style="width:80%">![EasyJet app](images/easyjet-patrick.png)</p>-->
-
---
-
-<blockquote>“Delays to loading web pages &amp; videos increase our heart rate and produce stress levels equivalent to watching a horror film.”</blockquote>
-<p class="caption"><a href="http://www.telegraph.co.uk/technology/2016/03/17/stressed-out-it-could-be-your-slow-internet/">The Telegraph</a></p>
-
-<!-- And according to other studies, stress can cause early death. So basically without service workers, we're killing people! -->
 
 --
 
@@ -147,7 +145,7 @@ controls: true
 
 <!-- Based on open standards and we contribute to them -->
 
-<p class="media-container centre fill-h">![Service workers spec](images/service-workers-spec.png)</p>
+<p class="media-container fill-w">![Service workers spec](images/service-workers-spec.png)</p>
 
 <!-- Message is: we're here, we want to help, we're doing some cool stuff with PWAs, WebVR... -->
 <!-- We're planning some cool stuff. And please get in touch if you need us. -->
@@ -254,17 +252,31 @@ self.addEventListener('install', event => {
 
 --
 
-# PWAs <br> *&nbsp;*
+<ul class="pwa">
+    <li>Powerful</li>
+    <li class="invisible">Wide-Reaching</li>
+    <li class="invisible">Awesome</li>
+</ul>
 
 --
 
-# PWAs <br> *Pretty Wrecking Awesome*
+<ul class="pwa">
+    <li>Powerful</li>
+    <li>Wide-Reaching</li>
+    <li class="invisible">Awesome</li>
+</ul> 
 
 --
 
-<h1 class="no-margin">We'd like to help</h1> 
+<ul class="pwa">
+    <li>Powerful</li>
+    <li>Wide-Reaching</li>
+    <li>Awesome</li>
+</ul> 
 
-<p class="media-container fill-w auto" style="width: 30%">![Hello](images/hand-raised.png)</p>
+--
+
+<h1>We'd like to help</h1> 
 
 --
 

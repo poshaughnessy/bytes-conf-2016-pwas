@@ -615,6 +615,10 @@ pre .xml .cdata {
   font-size: 3.5em;
 }
 
+ul.pwa {
+  font-size: 2em;
+}
+
 /* Media queries */
 
 @media (max-width: 600px) {
