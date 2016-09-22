@@ -262,7 +262,7 @@ self.addEventListener('install', event => {
 
 --
 
-<h1 class="no-margin">Hi! We'd like to help</h1> 
+<h1 class="no-margin">We'd like to help</h1> 
 
 <p class="media-container fill-w auto" style="width: 30%">![Hello](images/hand-raised.png)</p>
 
