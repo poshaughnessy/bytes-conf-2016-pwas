@@ -99,6 +99,8 @@ controls: false
 
 --
 
+<!-- TODO maybe for next time: logos of companies using SWs in prod already - Guardian, FT?, WaPo... -->
+
 <p class="media-container fill-w">![Rio Run](images/riorun-guardian.jpg)</p>
 <p class="caption"><a href="http://riorun.theguardian.com">Rio Run by Guardian US Interactive Team - riorun.theguardian.com</a></p>
 
@@ -207,6 +209,7 @@ self.addEventListener('install', event => {
 ### *But don't pre-cache too much!*
 
 <!-- TODO add one on URLs not files -->
+<!-- And one on sw-toolbox -->
 
 --
 
