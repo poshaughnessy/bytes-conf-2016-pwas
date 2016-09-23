@@ -551,7 +551,6 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 4%;
   width: 100%;
   height: 100%;
   box-sizing: border-box;
@@ -564,9 +563,10 @@ body {
 .slide-content {
   width: 100%;
   height: auto;
+  max-height: 100%;
   padding: 0;
   margin: 0 auto;
-  font-size: 150%;
+  font-size: 100%;
   font-weight: 200;
   line-height: 1.375;
   overflow: hidden;
@@ -588,6 +588,7 @@ body {
 img {
   max-width: 100%;
   max-height: 100%;
+  max-height: calc(100vh - 3em); /* Allow space for captions by default */
 }
 
 .controls {
@@ -741,43 +742,6 @@ p {
   margin: 0 0 1em 0;
 }
 
-.media-container {
-  height: -webkit-calc(95vh - 3em);
-  height: calc(95vh - 3em);
-  margin: 4% 0 0 0;
-}
-
-.media-container.centre {
-  margin-top: 4%;
-  margin-bottom: 4%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-h2 + .media-container {
-  margin-top: 0.3em;
-}
-
-.media-container + h2 {
-  margin-top: 0.3em;
-}
-
-.auto {
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-}
-
-.fill-w > * {
-  width: 100%;
-}
-
-.fill-h > * {
-  height: 100%;
-}
-
 a {
   text-decoration: none;
   color: #15738e;
@@ -835,6 +799,12 @@ table th {
   margin-top: 0.5em;
 }
 
+/* Quote by... */
+blockquote + p {
+  font-size: 0.9em;
+  margin-top: 1em;
+}
+
 .auto + .caption {
   margin: 0 0 1.5em 0;
 }
@@ -844,6 +814,10 @@ code {
   font-family: 'Fira Mono', Courier, sans-serif;
   color: #333;
   border-radius: 3px;
+}
+
+pre {
+  display: inline-block;
 }
 
 pre code {
@@ -976,26 +950,66 @@ ul.pwa {
   font-size: 2em;
 }
 
-/* Media queries */
 
-@media (max-width: 600px) {
-  .slide-content {
-    font-size: 1em;
-  }
+/* Media Queries */
+/* 640 x 480 is the default (1em) */
+
+/* 800 x 600 */
+@media (min-width: 800px) and (min-height: 600px) {
+    body {
+        font-size: 125%;
+    }
 }
 
+/* 1024 x 768 */
+@media (min-width: 1024px) and (min-height: 768px) {
+    body {
+        font-size: 160%;
+    }
+}
+
+/* 1152 x 864 */
+@media (min-width: 1152px) and (min-height: 864px) {
+    body {
+        font-size: 180%;
+    }
+}
+
+/* 1280 x 960 */
+@media (min-width: 1280px) and (min-height: 960px) {
+    body {
+        font-size: 200%;
+    }
+}
+
+/* 1440 x 1080 */
+@media (min-width: 1440px) and (min-height: 1080px) {
+    body {
+        font-size: 225%;
+    }
+}
+
+/* 1600 x 1200 */
+@media (min-width: 1600px) and (min-height: 1200px) {
+    body {
+        font-size: 250%;
+    }
+}
+
+/* 1920 x 1440 */
+@media (min-width: 1920px) and (min-height: 1440px) {
+    body {
+        font-size: 300%;
+    }
+}
+
+/* Override theme */
 @media (max-width: 850px) {
   img {
-    /* Override theme */
     width: auto;
   }
 }
 
-@media (min-width: 1600px) {
-  body {
-    font-size: 2em;
-  }
-}
   </style>
 </head>
 <body>
@@ -1017,7 +1031,7 @@ ul.pwa {
   </div>
   <div class="slide hidden" id="slide-3">
     <section class="slide-content"><h2 id="-just-websites-that-took-all-the-right-vitamins-">“Just websites that took all the right vitamins”</h2>
-<p class="media-container auto fill-w" style="width:65%"><img src="images/popeye.jpg" alt="Popeye"></p>
+<p><img src="images/popeye.jpg" alt="Popeye" style="max-width:65%; max-height:60vh"/></p>
 <p class="caption">By <a href="https://www.flickr.com/photos/jeepersmedia/17144071448">Mike Mozart</a></p></section>
   </div>
   <div class="slide hidden" id="slide-4">
@@ -1051,7 +1065,8 @@ ul.pwa {
 </section>
   </div>
   <div class="slide hidden" id="slide-6">
-    <section class="slide-content"><p class="media-container fill-w"><img src="images/gartner-hype-cycle.svg" alt="Gartner Hype Cycle"></p></section>
+    <section class="slide-content"><p><img src="images/gartner-hype-cycle.svg" alt="Gartner Hype Cycle" style="min-width:85%"/></p>
+</section>
   </div>
   <div class="slide hidden" id="slide-7">
     <section class="slide-content"><h1 id="maximising-reach-">Maximising reach.</h1>
@@ -1059,67 +1074,50 @@ ul.pwa {
   </div>
   <div class="slide hidden" id="slide-8">
     <section class="slide-content"><h1 id="minimising-friction-">Minimising friction.</h1>
-<!-- The best of web and native --></section>
+</section>
   </div>
   <div class="slide hidden" id="slide-9">
-    <section class="slide-content"><p><blockquote>“Delays to loading web pages &amp; videos increase our heart rate and produce stress levels equivalent to watching a horror film.”</blockquote></p>
-<p class="caption"><a href="http://www.telegraph.co.uk/technology/2016/03/17/stressed-out-it-could-be-your-slow-internet/">The Telegraph</a></p>
+    <section class="slide-content"><blockquote>“Delays to loading web pages &amp; videos increase our heart rate and produce stress levels equivalent to watching a horror film.”</blockquote>
 
-<!-- And according to other studies, stress can cause early death. So basically without service workers, we're killing people! --></section>
+<p><a href="http://www.telegraph.co.uk/technology/2016/03/17/stressed-out-it-could-be-your-slow-internet/">The Telegraph</a></p>
+</section>
   </div>
   <div class="slide hidden" id="slide-10">
-    <section class="slide-content"><p class="media-container fill-h"><img src="images/facebook.png" alt="Facebook web app"></p>
+    <section class="slide-content"><p><img src="images/facebook.png" alt="Facebook web app" style="min-height:75%; max-height: calc(96vh - 3em); margin-top:4vh"/></p>
 <p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via <a href="http://wtfmobileweb.com">http://wtfmobileweb.com</a></a></p></section>
   </div>
   <div class="slide hidden" id="slide-11">
-    <section class="slide-content"><p class="media-container centre auto fill-w" style="width:80%"><img src="images/linkedin-tweets.png" alt="LinkedIn app"></p>
-
-<!-- TODO if time: Use Reflector, record video of LinkedIn problem -->
-
-<!--<p class="media-container centre auto fill-w" style="width:80%">![Medium app](images/medium-peter.png)</p>-->
-
-<!-- TODO if time: Use Reflector, record video of Medium problem -->
-
-<!-- I'ts not just the Web... -->
-<!--<p class="media-container fill-w" style="width:80%">![EasyJet app](images/easyjet-patrick.png)</p>--></section>
+    <section class="slide-content"><p><img src="images/linkedin-tweets.png" alt="LinkedIn app" style="min-height:80%"/></p>
+</section>
   </div>
   <div class="slide hidden" id="slide-12">
-    <section class="slide-content"><!-- TODO maybe for next time: logos of companies using SWs in prod already - Guardian, FT?, WaPo... -->
-
-<p class="media-container fill-w"><img src="images/riorun-guardian.jpg" alt="Rio Run"></p>
+    <section class="slide-content"><p><img src="images/riorun-guardian.jpg" alt="Rio Run"></p>
 <p class="caption"><a href="http://riorun.theguardian.com">Rio Run by Guardian US Interactive Team - riorun.theguardian.com</a></p></section>
   </div>
   <div class="slide hidden" id="slide-13">
-    <section class="slide-content"><p class="media-container fill-h"><img src="images/aliexpress.gif" alt="AliExpress"></p>
-<p class="caption"><a href="https://developers.google.com/web/showcase/2016/aliexpress">AliExpress PWA increased conversions by over 100%</a></p>
-
-<!-- TODO image of InspireHub --></section>
+    <section class="slide-content"><p><img src="images/aliexpress.gif" alt="AliExpress"></p>
+<p class="caption"><a href="https://developers.google.com/web/showcase/2016/aliexpress">AliExpress PWA increased conversions by over 100%</a></p></section>
   </div>
   <div class="slide hidden" id="slide-14">
-    <section class="slide-content"><p><p class="media-container auto fill-w" style="width:85%"><img src="images/google-web-showcase.png" alt="Google Web Showcase"></p></p>
-<h3 id="-developers-google-com-web-showcase-https-developers-google-com-web-showcase-"><a href="https://developers.google.com/web/showcase/">developers.google.com/web/showcase/</a></h3>
+    <section class="slide-content"><p><img src="images/google-web-showcase.png" alt="Google Web Showcase"></p>
+<h2 id="-developers-google-com-web-showcase-https-developers-google-com-web-showcase-"><a href="https://developers.google.com/web/showcase/">developers.google.com/web/showcase/</a></h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-15">
-    <section class="slide-content"><p class="media-container fill-w"><img src="images/isserviceworkerready.png" alt="Is Service Worker Ready?"></p>
+    <section class="slide-content"><p><img src="images/isserviceworkerready.png" style="max-height: calc(96vh - 3em); margin-top:4vh" alt="Is Service Worker Ready?"/></p>
 <p class="caption"><a href="https://jakearchibald.github.io/isserviceworkerready/">jakearchibald.github.io/isserviceworkerready/</a></p></section>
   </div>
   <div class="slide hidden" id="slide-16">
-    <section class="slide-content"><!-- For Android, based on Chromium, available on Play Store for Samsung Galaxy devices -->
-
-<h2 id="samsung-internet">Samsung Internet</h2>
+    <section class="slide-content"><h2 id="samsung-internet">Samsung Internet</h2>
 <p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" style="width:40%"></p>
 <p class="caption"><a href="http://bit.ly/what-is-samsung-internet">bit.ly/what-is-samsung-internet</a></p></section>
   </div>
   <div class="slide hidden" id="slide-17">
-    <section class="slide-content"><p class="media-container centre fill-w"><img src="images/statcounter-mobile-europe-sep2016.png" alt="Samsung Internet browser share"></p>
-
-<!-- http://gs.statcounter.com/#mobile_browser-eu-monthly-201609-201609-bar --></section>
+    <section class="slide-content"><p><img src="images/statcounter-mobile-europe-sep2016.png" alt="Samsung Internet browser share"></p>
+</section>
   </div>
   <div class="slide hidden" id="slide-18">
-    <section class="slide-content"><!-- Why do we have our own browser? To provide the best experience for our users -->
-
-<ul>
+    <section class="slide-content"><ul>
 <li>Optimised for hardware</li>
 <li>Integration with e.g. Gear VR, iris scanner</li>
 <li>Content blockers</li>
@@ -1127,38 +1125,26 @@ ul.pwa {
 </section>
   </div>
   <div class="slide hidden" id="slide-19">
-    <section class="slide-content"><!-- Based on open standards and we contribute to them -->
-
-<p class="media-container fill-w"><img src="images/service-workers-spec.png" alt="Service workers spec"></p>
-
-<!-- Message is: we're here, we want to help, we're doing some cool stuff with PWAs, WebVR... -->
-<!-- We're planning some cool stuff. And please get in touch if you need us. --></section>
+    <section class="slide-content"><p><img src="images/service-workers-spec.png" alt="Service workers spec"></p>
+</section>
   </div>
   <div class="slide hidden" id="slide-20">
-    <section class="slide-content"><p class="media-container"><img src="images/caniuse-showall.png" alt="caniuse.com show all button"></p>
+    <section class="slide-content"><p><img src="images/caniuse-showall.png" style="max-height: calc(96vh - 3em); margin-top:4vh" alt="caniuse.com show all button"/></p>
 <p class="caption"><a href="http://caniuse.com">caniuse.com</a></p></section>
   </div>
   <div class="slide hidden" id="slide-21">
-    <section class="slide-content"><p class="media-container fill-w auto" style="width:80%"><img src="images/remote-debugging.png" alt="Remote Debugging"></p>
-
+    <section class="slide-content"><p><img src="images/remote-debugging.png" alt="Remote Debugging" style="max-width:85%"/></p>
 <h2 id="-bit-ly-debug-samsung-internet-https-medium-com-samsung-internet-dev-introducing-samsung-internet-for-developers-6c3a3be42f72-8f13-"><a href="https://medium.com/samsung-internet-dev/introducing-samsung-internet-for-developers-6c3a3be42f72#8f13">bit.ly/debug-samsung-internet</a></h2>
 </section>
   </div>
   <div class="slide hidden  " id="slide-22">
-    <section class="slide-content"><p class="media-container fill-w auto" style="width:80%"><img src="images/remotetestlab.png" alt="Samsung Remote Test Lab"></p>
-
+    <section class="slide-content"><p><img src="images/remotetestlab.png" alt="Samsung Remote Test Lab" style="max-width:85%"></p>
 <h2 id="-developer-samsung-com-remotetestlab-http-developer-samsung-com-remotetestlab-rtldevicelist-action-"><a href="http://developer.samsung.com/remotetestlab/rtlDeviceList.action">developer.samsung.com/remotetestlab/</a></h2>
 </section>
   </div>
   <div class="slide hidden" id="slide-23">
-    <section class="slide-content"><p class="media-container fill-h"><img src="images/snapwat.png" alt="Snapwat"></p>
-<p class="caption"><a href="https://github.com/SamsungInternet/snapwat">github.com/SamsungInternet/snapwat</a></p>
-
-<!-- I wanted to develop a PWA myself... -->
-<!--* HTTPS (Cloudflare)-->
-<!--* Service worker-->
-<!--* Web App Manifest-->
-<!--* WebRTC--></section>
+    <section class="slide-content"><p><img src="images/snapwat.png" alt="Snapwat" style="max-height: calc(96vh - 3em); margin-top:4vh"/></p>
+<p class="caption"><a href="https://github.com/SamsungInternet/snapwat">github.com/SamsungInternet/snapwat</a></p></section>
   </div>
   <div class="slide hidden" id="slide-24">
     <section class="slide-content"><pre><code class="lang-javascript"><span class="hljs-keyword">const</span> RESOURCES = [  
@@ -1189,12 +1175,11 @@ self.addEventListener(<span class="hljs-string">'install'</span>, event =&gt; {
 <li><a href="https://gitlab.com/Rich-Harris/rollup-cache-manifest-example/tree/master">bit.ly/rollup-precache</a></li>
 </ul>
 <h3 id="-but-don-t-pre-cache-too-much-"><em>But don&#39;t pre-cache too much!</em></h3>
-<!-- TODO add one on URLs not files -->
-<!-- And one on sw-toolbox --></section>
+</section>
   </div>
   <div class="slide hidden" id="slide-26">
     <section class="slide-content"><h2 id="client-side-image-downloads-there-be-dragons-">Client-side image downloads? There be dragons!</h2>
-<p class="media-container auto fill-w" style="width:45%"><img src="images/dragon-donstewart.jpg" alt="Dragon"></p>
+<p><img src="images/dragon-donstewart.jpg" alt="Dragon" style="max-width:45%"/></p>
 <p class="caption">By <a href="https://www.flickr.com/photos/don-stewart/2369281599">Don Stewart</a></p>
 
 <h3 id="-bit-ly-wicg-save-image-https-discourse-wicg-io-t-save-image-feature-on-mobile-platforms-1676-"><a href="https://discourse.wicg.io/t/save-image-feature-on-mobile-platforms/1676">bit.ly/wicg-save-image</a></h3>
@@ -1202,26 +1187,23 @@ self.addEventListener(<span class="hljs-string">'install'</span>, event =&gt; {
   </div>
   <div class="slide hidden" id="slide-27">
     <section class="slide-content"><h2 id="i-still-have-work-to-do-">I still have work to do...</h2>
-<p class="media-container auto fill-w" style="width: 70%"><img src="images/caniuse-getusermedia.png" alt="getUserMedia caniuse.com"></p></section>
+<p><img src="images/caniuse-getusermedia.png" alt="getUserMedia caniuse.com" style="max-width: 70%"/></p>
+</section>
   </div>
   <div class="slide hidden" id="slide-28">
     <section class="slide-content"><h2 id="webvr">WebVR</h2>
-<p class="media-container auto fill-w" style="width:70%"><img src="images/samsung-gear-vr.jpg" alt="Samsung Gear VR"></p>
-
+<p><img src="images/samsung-gear-vr.jpg" alt="Samsung Gear VR" style="max-width:70%"/></p>
 <h3 id="-developer-samsung-com-internet-gearvr-overview-http-developer-samsung-com-internet-gearvr-overview-"><a href="http://developer.samsung.com/internet#gearvr-overview">developer.samsung.com/internet#gearvr-overview</a></h3>
 </section>
   </div>
   <div class="slide hidden" id="slide-29">
-    <section class="slide-content"><p><p class="media-container auto fill-w" style="width:85%"><img src="images/aframe-racer-ada.png" alt="A-Frame Racer demo by Ada"></p></p>
+    <section class="slide-content"><p><img src="images/aframe-racer-ada.png" alt="A-Frame Racer demo by Ada" style="max-width:85%"/></p>
 <h3 id="-https-github-com-samsunginternet-a-frame-demos-github-com-samsunginternet-a-frame-demos-"><a href="github.com/SamsungInternet/a-frame-demos"><a href="https://github.com/SamsungInternet/a-frame-demos">https://github.com/SamsungInternet/a-frame-demos</a></a></h3>
 </section>
   </div>
   <div class="slide hidden" id="slide-30">
-    <section class="slide-content"><p class="media-container fill-h"><img src="images/payment-request-ui-chrome.png" alt="Payment Request UI"></p>
-<p class="caption"><a href="https://developers.google.com/web/fundamentals/primers/payment-request/">developers.google.com/web/fundamentals/primers/payment-request/</a></p>
-
-<!-- Samsung Internet are also working on this - W3C Web Pay with credit card (first) and Samsung Pay (later) -->
-<!-- and we're involved in the standard.. joined the W3C WG and contribute..--></section>
+    <section class="slide-content"><p><img src="images/payment-request-ui-chrome.png" alt="Payment Request UI" style="max-height: calc(96vh - 3em); margin-top:4vh"/></p>
+<p class="caption"><a href="https://developers.google.com/web/fundamentals/primers/payment-request/">developers.google.com/web/fundamentals/primers/payment-request/</a></p></section>
   </div>
   <div class="slide hidden" id="slide-31">
     <section class="slide-content"><ul class="pwa">
@@ -1257,6 +1239,10 @@ self.addEventListener(<span class="hljs-string">'install'</span>, event =&gt; {
 </div></section>
   </div>
 
+  <div class="controls">
+    <div class="arrow prev"></div>
+    <div class="arrow next"></div>
+  </div>
 
 
   <script type="text/javascript">
