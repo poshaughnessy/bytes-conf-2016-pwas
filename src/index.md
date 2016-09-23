@@ -2,7 +2,7 @@ title: PWAs and the biggest browser you've probably never thought of
 output: public/index.html
 style: styles.css
 script: script.js
-controls: false
+controls: true
 
 --
 
@@ -68,14 +68,10 @@ controls: false
 
 # Minimising friction.
 
-<!-- The best of web and native -->
-
 --
 
 <blockquote>“Delays to loading web pages &amp; videos increase our heart rate and produce stress levels equivalent to watching a horror film.”</blockquote>
 <p class="caption"><a href="http://www.telegraph.co.uk/technology/2016/03/17/stressed-out-it-could-be-your-slow-internet/">The Telegraph</a></p>
-
-<!-- And according to other studies, stress can cause early death. So basically without service workers, we're killing people! -->
 
 --
 
@@ -86,18 +82,7 @@ controls: false
 
 <p class="media-container centre auto fill-w" style="width:80%">![LinkedIn app](images/linkedin-tweets.png)</p>
 
-<!-- TODO if time: Use Reflector, record video of LinkedIn problem -->
-
-<!--<p class="media-container centre auto fill-w" style="width:80%">![Medium app](images/medium-peter.png)</p>-->
-
-<!-- TODO if time: Use Reflector, record video of Medium problem -->
-
-<!-- I'ts not just the Web... -->
-<!--<p class="media-container fill-w" style="width:80%">![EasyJet app](images/easyjet-patrick.png)</p>-->
-
 --
-
-<!-- TODO maybe for next time: logos of companies using SWs in prod already - Guardian, FT?, WaPo... -->
 
 <p class="media-container fill-w">![Rio Run](images/riorun-guardian.jpg)</p>
 <p class="caption"><a href="http://riorun.theguardian.com">Rio Run by Guardian US Interactive Team - riorun.theguardian.com</a></p>
@@ -106,8 +91,6 @@ controls: false
 
 <p class="media-container fill-h">![AliExpress](images/aliexpress.gif)</p>
 <p class="caption"><a href="https://developers.google.com/web/showcase/2016/aliexpress">AliExpress PWA increased conversions by over 100%</a></p>
-
-<!-- TODO image of InspireHub -->
 
 --
 
@@ -121,8 +104,6 @@ controls: false
 
 --
 
-<!-- For Android, based on Chromium, available on Play Store for Samsung Galaxy devices -->
-
 ## Samsung Internet
 <p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" style="width:40%"></p>
 <p class="caption"><a href="http://bit.ly/what-is-samsung-internet">bit.ly/what-is-samsung-internet</a></p>
@@ -131,11 +112,7 @@ controls: false
 
 <p class="media-container centre fill-w">![Samsung Internet browser share](images/statcounter-mobile-europe-sep2016.png)</p>
 
-<!-- http://gs.statcounter.com/#mobile_browser-eu-monthly-201609-201609-bar -->
-
 --
-
-<!-- Why do we have our own browser? To provide the best experience for our users -->
 
 * Optimised for hardware
 * Integration with e.g. Gear VR, iris scanner
@@ -143,12 +120,7 @@ controls: false
 
 --
 
-<!-- Based on open standards and we contribute to them -->
-
 <p class="media-container fill-w">![Service workers spec](images/service-workers-spec.png)</p>
-
-<!-- Message is: we're here, we want to help, we're doing some cool stuff with PWAs, WebVR... -->
-<!-- We're planning some cool stuff. And please get in touch if you need us. -->
 
 --
 
@@ -171,12 +143,6 @@ controls: false
 
 <p class="media-container fill-h">![Snapwat](images/snapwat.png)</p>
 <p class="caption">[github.com/SamsungInternet/snapwat](https://github.com/SamsungInternet/snapwat)</p>
-
-<!-- I wanted to develop a PWA myself... -->
-<!--* HTTPS (Cloudflare)-->
-<!--* Service worker-->
-<!--* Web App Manifest-->
-<!--* WebRTC-->
 
 --
 
@@ -211,9 +177,6 @@ self.addEventListener('install', event => {
 
 ### *But don't pre-cache too much!*
 
-<!-- TODO add one on URLs not files -->
-<!-- And one on sw-toolbox -->
-
 --
 
 ## Client-side image downloads? There be dragons!
@@ -246,9 +209,6 @@ self.addEventListener('install', event => {
 
 <p class="media-container fill-h">![Payment Request UI](images/payment-request-ui-chrome.png)</p>
 <p class="caption"><a href="https://developers.google.com/web/fundamentals/primers/payment-request/">developers.google.com/web/fundamentals/primers/payment-request/</a></p>
-
-<!-- Samsung Internet are also working on this - W3C Web Pay with credit card (first) and Samsung Pay (later) -->
-<!-- and we're involved in the standard.. joined the W3C WG and contribute..-->
 
 --
 
