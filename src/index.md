@@ -23,7 +23,7 @@ controls: true
 
 ## “Just websites that took all the right vitamins”
 
-<p class="media-container auto fill-w" style="width:65%">![Popeye](images/popeye.jpg)</p>
+<img src="images/popeye.jpg" alt="Popeye" style="max-width:65%; max-height:60vh"/>
 <p class="caption">By [Mike Mozart](https://www.flickr.com/photos/jeepersmedia/17144071448)</p>
 
 --
@@ -58,7 +58,7 @@ controls: true
 
 --
 
-<p class="media-container fill-w">![Gartner Hype Cycle](images/gartner-hype-cycle.svg)</p>
+<img src="images/gartner-hype-cycle.svg" alt="Gartner Hype Cycle" style="min-width:85%"/>
 
 --
 
@@ -71,46 +71,46 @@ controls: true
 --
 
 <blockquote>“Delays to loading web pages &amp; videos increase our heart rate and produce stress levels equivalent to watching a horror film.”</blockquote>
-<p class="caption"><a href="http://www.telegraph.co.uk/technology/2016/03/17/stressed-out-it-could-be-your-slow-internet/">The Telegraph</a></p>
+
+[The Telegraph](http://www.telegraph.co.uk/technology/2016/03/17/stressed-out-it-could-be-your-slow-internet/)
 
 --
 
-<p class="media-container fill-h">![Facebook web app](images/facebook.png)</p>
-<p class="caption"><a href="http://wtfmobileweb.com">By Jules Jamison via http://wtfmobileweb.com</a></p>
+<img src="images/facebook.png" alt="Facebook web app" style="min-height:75%; max-height: calc(96vh - 3em); margin-top:4vh"/>
+<p class="caption">[By Jules Jamison via http://wtfmobileweb.com](http://wtfmobileweb.com)</p>
 
 --
 
-<p class="media-container centre auto fill-w" style="width:80%">![LinkedIn app](images/linkedin-tweets.png)</p>
+<img src="images/linkedin-tweets.png" alt="LinkedIn app" style="min-height:80%"/>
 
 --
 
-<p class="media-container fill-w">![Rio Run](images/riorun-guardian.jpg)</p>
-<p class="caption"><a href="http://riorun.theguardian.com">Rio Run by Guardian US Interactive Team - riorun.theguardian.com</a></p>
+![Rio Run](images/riorun-guardian.jpg)
+<p class="caption">[Rio Run by Guardian US Interactive Team - riorun.theguardian.com](http://riorun.theguardian.com)</p>
 
 --
 
-<p class="media-container fill-h">![AliExpress](images/aliexpress.gif)</p>
-<p class="caption"><a href="https://developers.google.com/web/showcase/2016/aliexpress">AliExpress PWA increased conversions by over 100%</a></p>
+![AliExpress](images/aliexpress.gif)
+<p class="caption">[AliExpress PWA increased conversions by over 100%](https://developers.google.com/web/showcase/2016/aliexpress)</p>
 
 --
 
-<p class="media-container auto fill-w" style="width:85%">![Google Web Showcase](images/google-web-showcase.png)</p>
-### [developers.google.com/web/showcase/](https://developers.google.com/web/showcase/)
+![Google Web Showcase](images/google-web-showcase.png)
+## [developers.google.com/web/showcase/](https://developers.google.com/web/showcase/)
 
 --
-
-<p class="media-container fill-w">![Is Service Worker Ready?](images/isserviceworkerready.png)</p>
-<p class="caption"><a href="https://jakearchibald.github.io/isserviceworkerready/">jakearchibald.github.io/isserviceworkerready/</a></p>
+<img src="images/isserviceworkerready.png" style="max-height: calc(96vh - 3em); margin-top:4vh" alt="Is Service Worker Ready?"/>
+<p class="caption">[jakearchibald.github.io/isserviceworkerready/](https://jakearchibald.github.io/isserviceworkerready/)</p>
 
 --
 
 ## Samsung Internet
 <p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" style="width:40%"></p>
-<p class="caption"><a href="http://bit.ly/what-is-samsung-internet">bit.ly/what-is-samsung-internet</a></p>
+<p class="caption">[bit.ly/what-is-samsung-internet](http://bit.ly/what-is-samsung-internet)</p>
 
 --
 
-<p class="media-container centre fill-w">![Samsung Internet browser share](images/statcounter-mobile-europe-sep2016.png)</p>
+![Samsung Internet browser share](images/statcounter-mobile-europe-sep2016.png)
 
 --
 
@@ -120,28 +120,28 @@ controls: true
 
 --
 
-<p class="media-container fill-w">![Service workers spec](images/service-workers-spec.png)</p>
+![Service workers spec](images/service-workers-spec.png)
 
 --
 
-<p class="media-container">![caniuse.com show all button](images/caniuse-showall.png)</p>
+<img src="images/caniuse-showall.png" style="max-height: calc(96vh - 3em); margin-top:4vh" alt="caniuse.com show all button"/>
 <p class="caption"><a href="http://caniuse.com">caniuse.com</a></p>
 
 --
 
-<p class="media-container fill-w auto" style="width:80%"><img src="images/remote-debugging.png" alt="Remote Debugging"></p>
+<img src="images/remote-debugging.png" alt="Remote Debugging" style="max-width:85%"/>
 
 ## [bit.ly/debug-samsung-internet](https://medium.com/samsung-internet-dev/introducing-samsung-internet-for-developers-6c3a3be42f72#8f13)
 
 -- 
 
-<p class="media-container fill-w auto" style="width:80%"><img src="images/remotetestlab.png" alt="Samsung Remote Test Lab"></p>
+<img src="images/remotetestlab.png" alt="Samsung Remote Test Lab" style="max-width:85%">
 
 ## [developer.samsung.com/remotetestlab/](http://developer.samsung.com/remotetestlab/rtlDeviceList.action)
 
 --
 
-<p class="media-container fill-h">![Snapwat](images/snapwat.png)</p>
+<img src="images/snapwat.png" alt="Snapwat" style="max-height: calc(96vh - 3em); margin-top:4vh"/>
 <p class="caption">[github.com/SamsungInternet/snapwat](https://github.com/SamsungInternet/snapwat)</p>
 
 --
@@ -181,7 +181,7 @@ self.addEventListener('install', event => {
 
 ## Client-side image downloads? There be dragons!
 
-<p class="media-container auto fill-w" style="width:45%">![Dragon](images/dragon-donstewart.jpg)</p>
+<img src="images/dragon-donstewart.jpg" alt="Dragon" style="max-width:45%"/>
 <p class="caption">By <a href="https://www.flickr.com/photos/don-stewart/2369281599">Don Stewart</a></p>
 
 ### [bit.ly/wicg-save-image](https://discourse.wicg.io/t/save-image-feature-on-mobile-platforms/1676)
@@ -190,24 +190,25 @@ self.addEventListener('install', event => {
 
 ## I still have work to do...
 
-<p class="media-container auto fill-w" style="width: 70%">![getUserMedia caniuse.com](images/caniuse-getusermedia.png)</p>
+<img src="images/caniuse-getusermedia.png" alt="getUserMedia caniuse.com" style="max-width: 70%"/>
 
 --
 
 ## WebVR
 
-<p class="media-container auto fill-w" style="width:70%">![Samsung Gear VR](images/samsung-gear-vr.jpg)</p>
+<img src="images/samsung-gear-vr.jpg" alt="Samsung Gear VR" style="max-width:70%"/>
 
 ### [developer.samsung.com/internet#gearvr-overview](http://developer.samsung.com/internet#gearvr-overview)
 
 --
 
-<p class="media-container auto fill-w" style="width:85%">![A-Frame Racer demo by Ada](images/aframe-racer-ada.png)</p>
+<img src="images/aframe-racer-ada.png" alt="A-Frame Racer demo by Ada" style="max-width:85%"/>
+
 ### [https://github.com/SamsungInternet/a-frame-demos](github.com/SamsungInternet/a-frame-demos)
 
 --
 
-<p class="media-container fill-h">![Payment Request UI](images/payment-request-ui-chrome.png)</p>
+<img src="images/payment-request-ui-chrome.png" alt="Payment Request UI" style="max-height: calc(96vh - 3em); margin-top:4vh"/>
 <p class="caption"><a href="https://developers.google.com/web/fundamentals/primers/payment-request/">developers.google.com/web/fundamentals/primers/payment-request/</a></p>
 
 --
