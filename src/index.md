@@ -105,7 +105,7 @@ controls: true
 --
 
 ## Samsung Internet
-<p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" style="width:40%"></p>
+<p class="no-margin"><img src="images/samsunginternet.png" alt="Samsung Internet" style="max-width:40%"></p>
 <p class="caption">[bit.ly/what-is-samsung-internet](http://bit.ly/what-is-samsung-internet)</p>
 
 --
